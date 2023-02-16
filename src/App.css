@@ -20,6 +20,10 @@
   height: 15vh;
   width: 33.33%;
   background-color: rgb(169, 249, 249);
+  
+}
+.box-square:hover{
+  background-color: aliceblue;
 }
 .title-it {
   width: 100%;
@@ -44,7 +48,7 @@
   margin: 0 0 20px 0;
 }
 .font-xl {
-  font-size: 40px;
+  font-size: 70px;
 }
 @media (min-width: 968px) {
   .containing-box {
