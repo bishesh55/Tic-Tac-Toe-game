@@ -6,6 +6,7 @@
 }
 .containing-box {
   width: 80%;
+  
 }
 .box-row {
   display: flex;
@@ -28,7 +29,7 @@
   align-items: center;
   border: 1px solid black;
   padding: 30px;
-  height: 15vh;
+  height:5vh;
   width: 33.33%;
   background-color: rgb(169, 249, 249);
   
@@ -59,10 +60,17 @@
   margin: 0 0 20px 0;
 }
 .font-xl {
-  font-size: 70px;
+  font-size: 30px;
 }
 @media (min-width: 968px) {
   .containing-box {
     width: 33%;
+  }
+  .box-square{
+    height: 15vh;
+
+  }
+  .font-xl {
+    font-size: 70px;
   }
 }
