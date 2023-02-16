@@ -63,7 +63,12 @@ function Home(index) {
         </>
       ) : (
         <>
-          <h4 className="title-it">Player {isXTurn ? "X" : "O"} move now</h4>
+      
+          <h4 className="title-it">Player {isXTurn ? "X" : "O"} draw now</h4>
+          <div className="wid-100 center marg-bot">
+
+          <button onClick={()=>{refreshGame()}}className="btn-play-again ">Refresh game</button>
+          </div>
           <div className="containing-box">
             <div className="box-row">
               <Square

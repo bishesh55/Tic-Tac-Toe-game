@@ -11,6 +11,17 @@
   display: flex;
   width: 100%;
 }
+.wid-100{
+  width: 100%;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.marg-bot{
+  margin: 0 0 20px 0;
+}
 .box-square {
   display: flex;
   justify-content: center;
