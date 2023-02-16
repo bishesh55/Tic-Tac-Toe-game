@@ -18,8 +18,8 @@
   align-items: center;
   border: 1px solid black;
   padding: 30px;
-  height: 100px;
-  width: 100px;
+  height: 15vh;
+  width: 33.33%;
   background-color: rgb(169, 249, 249);
 }
 .title-it{
@@ -44,4 +44,7 @@
 .announce-section{
   width: 100%;
   margin: 0 0 20px 0;
+}
+.font-xl{
+  font-size: 40px;
 }

@@ -11,10 +11,11 @@ function Home(index) {
       return;
     }
     const copyData = [...data];
-    copyData[index] = isXTurn ? "X" : "O";
+    copyData[index] = isXTurn ? 'X': 'O';
     // data[index]= isXTurn? 'X': 'O'
 
     setData(copyData);
+    
     setIsXTurn(!isXTurn);
   };
   const checkWinner = () => {
