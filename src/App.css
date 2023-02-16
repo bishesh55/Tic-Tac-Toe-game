@@ -1,18 +1,17 @@
-.main-box{
+.main-box {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
 }
-.containing-box{
-  width: 33%;
+.containing-box {
+  width: 80%;
 }
-.box-row{
+.box-row {
   display: flex;
   width: 100%;
 }
-.box-square{
-  
+.box-square {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,29 +21,33 @@
   width: 33.33%;
   background-color: rgb(169, 249, 249);
 }
-.title-it{
+.title-it {
   width: 100%;
   text-align: center;
 }
-.btn-play-again{
+.btn-play-again {
   background-color: rgb(149, 237, 230);
   padding: 3px 10px;
   border-radius: 10px;
   border: 1px solid black;
 }
-.btn-play-again:hover{
+.btn-play-again:hover {
   background-color: rgb(134, 208, 235);
 }
-.container-announce{
+.container-announce {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
-.announce-section{
+.announce-section {
   width: 100%;
   margin: 0 0 20px 0;
 }
-.font-xl{
+.font-xl {
   font-size: 40px;
+}
+@media (min-width: 968px) {
+  .containing-box {
+    width: 33%;
+  }
 }
